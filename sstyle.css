@@ -1,0 +1,95 @@
+
+header
+{
+	border: solid #000000 1px;
+	padding: 5px 5px 5px 5px;
+	position: fixed;
+	width: 100%;
+	margin-right: 50px;
+	font-size: 120%;
+	text-align: left;
+	background-color: purple;
+
+}
+a[title]
+{
+	color: white;	
+}
+
+body div
+{
+	text-align: center;
+}
+
+body
+{
+	/*background-image: url("lila & Kaiou 1.JPG");
+ 	background-size: 20%;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-position: bottom;
+ 	background-position: auto;*/
+	text-align:justify;
+
+}
+ 
+body nav
+{
+	border: solid #000000 3px;
+	width: 200px;
+	height: 160px;
+	padding:  10px;
+	margin-right: 10px;
+	overflow: scroll;
+	background-color: yellow;
+}
+
+#body
+{
+		border: solid #000000 3px;
+		text-align: justify;
+		padding: 0px 15px 0px 15px;
+		margin-left: 240px;
+		margin-bottom: 5px;
+		background-color: green;
+		
+
+}
+
+#body2
+{
+		border: solid #000000 3px;
+		text-align: center;
+		padding: 0px 15px 0px 15px;
+		margin-left: 0px;
+		background-color: red;
+		
+
+}
+
+aside
+{
+	text-align: right;
+	width: 10%;
+	
+}
+h1
+{
+	font-family: arial;
+	text-align: center;
+	box-sizing: content-box;
+    border: solid #000000 2px;
+    padding: 3px;
+    width: 50%;
+    margin: auto
+}
+
+h1:hover
+{
+	color: red;
+}
+
+.imgfloat
+{
+	float: left;	
+}
