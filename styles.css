@@ -92,6 +92,51 @@ body {
     clear: both;
     display: table;
 }
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 12px;
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 400;
+    transition: opacity 0.3s ease;
+}
+
+.nav-list a:hover {
+    opacity: 0.6;
+}
+
+.hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    background-color: #f6f3ef;
+}
+
+.hero h2 {
+    font-family: "Georgia", serif;
+    font-size: 2.6rem;
+    font-weight: 400;
+    color: #2c2c2c;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 1.9rem;
+    }
+}
 
 /* Responsive Design: Stacking image and text vertically on small screens */
 @media (max-width: 768px) {
