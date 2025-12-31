@@ -28,7 +28,6 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    text-align: center;
 }
 
 .header h1 {
@@ -47,6 +46,8 @@ body {
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 20px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Left icon */
@@ -118,27 +119,6 @@ body {
     content: "";
     clear: both;
     display: table;
-}
-.nav-list {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 12px;
-    list-style: none;
-}
-
-.nav-list a {
-    text-decoration: none;
-    font-size: 0.75rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: #555;
-    font-weight: 400;
-    transition: opacity 0.3s ease;
-}
-
-.nav-list a:hover {
-    opacity: 0.6;
 }
 
 .hero {
@@ -392,7 +372,7 @@ body {
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
     text-align: center;
-    font-size: 1 rem;  /* Adjust font size */
+    font-size: 1rem;  /* Adjust font size */
     padding: 10px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
