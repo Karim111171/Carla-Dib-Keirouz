@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
+    font-family: 'Libre Baskerville', Georgia, serif;
+    line-height: 1.75;
+    color: #2c2c2c;
     background-color: #f9f9f9;
 }
 
@@ -89,6 +89,10 @@ body {
     opacity: 0.6;
 }
 
+.nav-right a,
+.site-title {
+    font-family: Arial, sans-serif;
+}
 /* About Section */
 .about {
     padding: 140px;
@@ -111,7 +115,10 @@ body {
 }
 
 .about p {
-    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.9;
+    max-width: 750px;
+    margin: 0 auto;
 }
 
 /* Clearfix for About Section */
@@ -132,16 +139,16 @@ body {
 }
 
 .hero h2 {
-    font-family: "Georgia", serif;
-    font-size: 2.6rem;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.8rem;
     font-weight: 400;
-    color: #2c2c2c;
-    line-height: 1.4;
+    line-height: 1.45;
+    color: #2b2b2b;
 }
 
 @media (max-width: 768px) {
     .hero h2 {
-        font-size: 1.9rem;
+        font-size: 2rem;
     }
 }
 
