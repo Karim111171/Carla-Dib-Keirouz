@@ -181,8 +181,6 @@ body {
         letter-spacing: 0.18em;
         max-width: 100%;
     }
-}
-
 /* Responsive Design: Stacking image and text vertically on small screens */
 @media (max-width: 768px) {
     .about-img {
