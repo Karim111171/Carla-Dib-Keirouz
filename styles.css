@@ -62,7 +62,7 @@ body {
 /* Center title */
 .site-title {
     font-family: "Georgia", serif;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     font-weight: 400;
@@ -79,7 +79,7 @@ body {
 
 .nav-right a {
     text-decoration: none;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #666;
@@ -92,7 +92,7 @@ body {
 
 .nav-right a,
 .site-title {
-    font-family: Arial, sans-serif;
+    font-family: "Georgia", sans-serif;
 }
 /* About Section */
 .about {
