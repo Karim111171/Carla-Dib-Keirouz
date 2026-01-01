@@ -177,6 +177,14 @@ body {
         gap: 10px;
         flex-wrap: wrap;
     }
+    .site-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.7rem;
+        letter-spacing: 0.18em;
+        max-width: 100%;
+    }
 }
 
 /* Responsive Design: Stacking image and text vertically on small screens */
