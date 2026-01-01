@@ -101,13 +101,6 @@ body {
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-    .about {
-        width: 100%;
-        padding: 50px 20px;
-    }
-}
-
 .about h2 {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -155,17 +148,20 @@ body {
 }
 
 @media (max-width: 768px) {
-    .hero h2 {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 768px) {
     .nav-bar {
         display: flex;
         flex-direction: column;
         gap: 5px;
         align-items: center;
+	  padding: 15px 20px;
+    }
+    .hero h2 {
+        font-size: 2rem;
+    }
+    .about {
+        width: 100%;
+        padding: 50px 20px;
+    }
     }
 
     .nav-left {
@@ -194,10 +190,6 @@ body {
         margin-right: 0;
         margin-bottom: 20px;
         float: none;
-    }
-
-    .about {
-        padding: 50px 15px;
     }
 }
 
@@ -476,10 +468,5 @@ iframe {
     h2 {
         text-align: center;
         font-size: 1.5rem;
-    }
-}
-@media (max-width: 768px) {
-    .nav-bar {
-        padding: 15px 20px;
     }
 }
