@@ -137,6 +137,9 @@ body {
     text-align: center;
     padding: 0 20px;
     background-image:url("CDK10.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     /*background-color: #f6f3ef;*/
 }
 
