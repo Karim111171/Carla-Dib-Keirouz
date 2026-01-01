@@ -163,7 +163,7 @@ body {
 @media (max-width: 768px) {
     .nav-bar {
         display: flex;
-        /*flex-direction: column;*/
+        flex-direction: column;
         gap: 5px;
         align-items: center;
     }
