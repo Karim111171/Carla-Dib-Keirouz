@@ -14,9 +14,9 @@ body {
 
 /* Container */
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 2rem;
 }
 
 /* Header Styles */
@@ -206,6 +206,12 @@ body {
     text-align: center;
 }
 
+.gallery-img {
+    max-height: 520px;
+    width: auto;
+    object-fit: contain;
+}
+
 .section-title {
     font-family: Arial, sans-serif;
     font-size: 0.8rem;
@@ -227,6 +233,11 @@ body {
     width: 33.33%;
     box-sizing: border-box;
     padding: 0 5px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
 }
 
 .swiper-slide img {
@@ -448,6 +459,29 @@ iframe {
     padding: 20px;
     height: auto;
     min-height: 80vh;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.7rem 1.8rem;
+    border: 1px solid #111;
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #111;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #111;
+    color: #fff;
+}
+
+.gallery-cta {
+    text-align: center;
+    margin-top: 3rem;
 }
 
 /* Media Queries for Small Screens */
