@@ -482,6 +482,7 @@ iframe {
 .gallery-cta {
     text-align: center;
     margin-top: 3rem;
+    margin-left: 5rem;
 }
 
 /* Media Queries for Small Screens */
