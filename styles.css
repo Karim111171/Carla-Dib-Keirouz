@@ -118,8 +118,10 @@ body {
 .about p {
     font-size: 1rem;
     line-height: 1.9;
-    max-width: 750px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 1rem 2rem;
+    text-align: justify;
 }
 
 /* Clearfix for About Section */
@@ -167,8 +169,13 @@ body {
     }
     .about {
         width: 100%;
-        padding: 50px 20px;
+        padding: 1rem 0.5rem;
     }
+    .text-hero {
+	width: 100%;
+	text-align: justify;
+	padding: 2rem 2rem;
+}
     }
 
     .nav-left {
@@ -195,6 +202,11 @@ body {
         margin-right: 0;
         margin-bottom: 20px;
         float: none;
+    }
+    .about p {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 10px; /* confort de lecture */
     }
 }
 
@@ -505,7 +517,7 @@ iframe {
 /* Media Queries for Small Screens */
 @media screen and (max-width: 768px) {
     .container {
-        padding: 15px;
+        padding: 3rem;
     }
 
     iframe {
