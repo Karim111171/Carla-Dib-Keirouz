@@ -68,11 +68,14 @@ body {
     font-weight: 400;
     color: #2c2c2c;
 }
-
+.nav-right {
+	margin-left: auto;
+}
 /* Right navigation */
 .nav-right ul {
     display: flex;
-    gap: 25px;
+    gap: 45px;
+    text-align; right;
     justify-self: end;
     list-style: none;
 }
@@ -532,4 +535,88 @@ iframe {
 .gallery-cta {
     text-align: center;
     margin-top: 3rem;
+}
+
+.exhibitions {
+  padding: 140px 20px;
+}
+
+.exhibitions-content {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.exhibitions-title {
+  text-align: center;
+  font-size: 1.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+
+.exhibitions-block {
+  margin-bottom: 100px;
+}
+
+.exhibitions-heading {
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.exhibitions-item {
+  line-height: 1.8;
+}
+
+.exhibitions-role {
+  font-weight: 500;
+}
+
+.exhibitions-meta {
+  color: #666;
+  margin-top: 6px;
+}
+
+/* List by year */
+.exhibitions-year {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.exhibitions-year span {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.exhibitions-year p {
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .exhibitions {
+    padding: 100px 20px;
+  }
+
+  .exhibitions-content {
+    max-width: 100%;
+  }
+
+  .exhibitions-title {
+    font-size: 1.3rem;
+    margin-bottom: 60px;
+  }
+
+  .exhibitions-year {
+    grid-template-columns: 1fr;
+  }
+
+  .exhibitions-year span {
+    margin-bottom: 6px;
+  }
 }
