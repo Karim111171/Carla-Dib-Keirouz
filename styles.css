@@ -538,12 +538,15 @@ iframe {
 }
 
 .exhibitions {
-  padding: 140px 20px;
+  padding: 8px 1px;
+  padding-top: 4rem; 
 }
 
 .exhibitions-content {
-  max-width: 780px;
   margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
 }
 
 .exhibitions-title {
