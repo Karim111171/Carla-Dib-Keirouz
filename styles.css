@@ -316,18 +316,12 @@ body {
     transition: opacity 0.3s ease;
     object-fit: contain;
     background-color: #f8f8f8;
-}
-
-.swiper-slide img:hover {
-    transform: scale(1.03);
-}
-
-.swiper-slide img {
     transition: opacity 0.3s ease;
 }
 
 .swiper-slide img:hover {
-    opacity: 0.9;
+    transform: scale(1.03);
+     opacity: 0.9;
 }
 
 .swiper-wrapper {
